@@ -38,12 +38,57 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult EliasMohammed()
+        {
+            return View();
+        }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
+
+        public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+        public IActionResult GustavWestberg()
+        {
+            return View();
+        }
+
+        public IActionResult Ahmad()
+        {
+            return View();
+        }
+
+        public IActionResult HelenaOchFeyona()
+        {
+            return View();
+        }
+
+        public IActionResult GustavCleveman()
+
+        public IActionResult Samulf()
+        {
+            return View();
+        }
 
         public IActionResult CharbelYakoub()
         {
             return View();
         }
-
+        
+        public IActionResult Kalle()
+        {
+            return View();
+        }
+        
+        public IActionResult JohannaAkerstrom()
+        {
+            return View();
+        }
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
