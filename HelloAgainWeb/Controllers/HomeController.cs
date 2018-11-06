@@ -58,10 +58,15 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+
+        public IActionResult Victor()
+
         public IActionResult GustavWestberg()
+
         {
             return View();
         }
+
 
         public IActionResult Ahmad()
         {
@@ -87,11 +92,18 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult DavidAgdelius()
+        {
+            return View();
+        }
+
         
         public IActionResult JohannaAkerstrom()
         {
             return View();
         }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
