@@ -38,6 +38,10 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
 
         public IActionResult GustavWestberg()
         {
