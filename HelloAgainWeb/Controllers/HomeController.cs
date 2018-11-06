@@ -38,6 +38,12 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult MikaelThomasMarkus()
+        {
+            return View();
+        }
+
         public IActionResult EliasMohammed()
         {
             return View();
