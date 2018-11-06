@@ -34,10 +34,26 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult MaxSteffiCharri()
+        {
+            return View();
+        }
+
         public IActionResult FredrikHaglund()
         {
             return View();
         }
+
+        public IActionResult KarlFristedt()
+        {
+            return View();
+        }
+
+        public IActionResult MikaelThomasMarkus()
+        {
+            return View();
+        }
+
         public IActionResult EliasMohammed()
         {
             return View();
@@ -64,6 +80,10 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult SamuelBering()
+        {
+            return View();
+        }
 
         public IActionResult Ahmad()
         {
