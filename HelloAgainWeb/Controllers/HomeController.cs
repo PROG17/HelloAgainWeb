@@ -58,7 +58,10 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+
         public IActionResult GustavCleveman()
+
+        public IActionResult Samulf()
         {
             return View();
         }
