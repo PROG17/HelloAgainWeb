@@ -54,6 +54,9 @@ namespace HelloAgainWeb.Controllers
 
 
         public IActionResult Victor()
+        {
+            return View();
+        }
 
         public IActionResult GustavWestberg()
 
