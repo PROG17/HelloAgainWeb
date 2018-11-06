@@ -38,6 +38,30 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
+
+        public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+        public IActionResult GustavWestberg()
+        {
+            return View();
+        }
+
+        public IActionResult Ahmad()
+        {
+            return View();
+        }
+
+        public IActionResult Samulf()
+        {
+            return View();
+        }
 
         public IActionResult JohannaAkerstrom()
         {
