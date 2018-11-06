@@ -67,6 +67,10 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult SamuelBering()
+        {
+            return View();
+        }
 
         public IActionResult Ahmad()
         {
