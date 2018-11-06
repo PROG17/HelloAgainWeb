@@ -42,6 +42,30 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
+
+        public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+        public IActionResult GustavWestberg()
+        {
+            return View();
+        }
+
+        public IActionResult Ahmad()
+        {
+            return View();
+        }
+
+        public IActionResult Samulf()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
