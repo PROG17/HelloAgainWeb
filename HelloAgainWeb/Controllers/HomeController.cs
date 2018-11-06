@@ -34,6 +34,11 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult MaxSteffiCharri()
+        {
+            return View();
+        }
+
         public IActionResult FredrikHaglund()
         {
             return View();
@@ -73,6 +78,10 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Adrian()
+        {
+            return View();
+        }
 
         public IActionResult CharbelYakoub()
         {
@@ -86,13 +95,32 @@ namespace HelloAgainWeb.Controllers
         
         public IActionResult JohannaAkerstrom()
         {
+            return View("otherView");
+        }
+
+        public IActionResult EgidioJens()
+        {
+
             return View();
         }
-        
+        public IActionResult AnnaMaria()
+        {
+            return View();
+        }
+
+        public IActionResult Mimmi()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult AndreasBlom()
+        {
+            return View();
         }
 
     }
