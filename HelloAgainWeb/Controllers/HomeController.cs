@@ -34,20 +34,26 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
-        public IActionResult FredrikHaglund()
+        public IActionResult MaxSteffiCharri()
         {
             return View();
         }
-
+        
         public IActionResult Jonas()
         {
            return View();
         }
+        
         public IActionResult MikaelThomasMarkus()
+          {
+           return View();
+        }
+
+        public IActionResult FredrikHaglund()
+
         {
             return View();
         }
-
         public IActionResult EliasMohammed()
         {
             return View();
@@ -62,15 +68,10 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
-
-        public IActionResult Victor()
-
         public IActionResult GustavWestberg()
-
         {
             return View();
         }
-
 
         public IActionResult Ahmad()
         {
@@ -83,35 +84,54 @@ namespace HelloAgainWeb.Controllers
         }
 
         public IActionResult GustavCleveman()
-        {
-            return View();
-        }
 
         public IActionResult Samulf()
         {
             return View();
         }
+        public IActionResult Adrian()
+        {
+            return View();
+        }
 
+        public IActionResult CharbelYakoub()
+        {
+            return View();
+        }
+        
         public IActionResult Kalle()
         {
             return View();
         }
-
-        public IActionResult DavidAgdelius()
-        {
-            return View();
-        }
-
         
         public IActionResult JohannaAkerstrom()
         {
+            return View("otherView");
+        }
+
+        public IActionResult EgidioJens()
+        {
+
+            return View();
+        }
+        public IActionResult AnnaMaria()
+        {
             return View();
         }
 
+        public IActionResult Mimmi()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult AndreasBlom()
+        {
+            return View();
         }
 
     }
