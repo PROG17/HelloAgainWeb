@@ -40,6 +40,11 @@ namespace HelloAgainWeb.Controllers
         }
 
         public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+        public IActionResult GustavWestberg()
         {
             return View();
         }
