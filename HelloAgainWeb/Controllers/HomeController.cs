@@ -41,6 +41,70 @@ namespace HelloAgainWeb.Controllers
 
         public IActionResult Jonas()
         {
+           return View();
+        }
+        public IActionResult MikaelThomasMarkus()
+        {
+            return View();
+        }
+
+        public IActionResult EliasMohammed()
+        {
+            return View();
+        }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
+
+        public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+
+        public IActionResult Victor()
+
+        public IActionResult GustavWestberg()
+
+        {
+            return View();
+        }
+
+
+        public IActionResult Ahmad()
+        {
+            return View();
+        }
+
+        public IActionResult HelenaOchFeyona()
+        {
+            return View();
+        }
+
+        public IActionResult GustavCleveman()
+        {
+            return View();
+        }
+
+        public IActionResult Samulf()
+        {
+            return View();
+        }
+
+        public IActionResult Kalle()
+        {
+            return View();
+        }
+
+        public IActionResult DavidAgdelius()
+        {
+            return View();
+        }
+
+        
+        public IActionResult JohannaAkerstrom()
+        {
             return View();
         }
 
