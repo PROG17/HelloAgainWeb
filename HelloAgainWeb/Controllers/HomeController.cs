@@ -34,6 +34,11 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult MaxSteffiCharri()
+        {
+            return View();
+        }
+
         public IActionResult FredrikHaglund()
         {
             return View();
@@ -124,6 +129,11 @@ namespace HelloAgainWeb.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult AndreasBlom()
+        {
+            return View();
         }
 
     }
