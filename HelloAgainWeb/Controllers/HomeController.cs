@@ -104,6 +104,10 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Adrian()
+        {
+            return View();
+        }
 
         public IActionResult Kalle()
         {
@@ -118,6 +122,12 @@ namespace HelloAgainWeb.Controllers
         
         public IActionResult JohannaAkerstrom()
         {
+            return View("otherView");
+        }
+
+        public IActionResult EgidioJens()
+        {
+
             return View();
         }
 
