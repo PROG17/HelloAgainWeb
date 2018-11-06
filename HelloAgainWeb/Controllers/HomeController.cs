@@ -34,12 +34,89 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult MaxSteffiCharri()
+        {
+            return View();
+        }
+
         public IActionResult FredrikHaglund()
         {
             return View();
         }
 
+        public IActionResult KarlFristedt()
+        {
+            return View();
+        }
+
+        public IActionResult MikaelThomasMarkus()
+        {
+            return View();
+        }
+
+        public IActionResult EliasMohammed()
+        {
+            return View();
+        }
+        public IActionResult Uttern()
+        {
+            return View();
+        }
+
+        public IActionResult TomasUtanH()
+                {
+            return View();
+        }
+
+
+        public IActionResult Victor()
+        {
+            return View();
+        }
+
         public IActionResult GustavWestberg()
+
+        {
+            return View();
+        }
+
+        public IActionResult SamuelBering()
+        {
+            return View();
+        }
+
+        public IActionResult Ahmad()
+        {
+            return View();
+        }
+
+        public IActionResult HelenaOchFeyona()
+        {
+            return View();
+        }
+
+        public IActionResult GustavCleveman()
+        {
+            return View();
+        }
+
+        public IActionResult Samulf()
+        {
+            return View();
+        }
+
+        public IActionResult Kalle()
+        {
+            return View();
+        }
+
+        public IActionResult DavidAgdelius()
+        {
+            return View();
+        }
+
+        
+        public IActionResult JohannaAkerstrom()
         {
             return View();
         }
@@ -52,6 +129,11 @@ namespace HelloAgainWeb.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult AndreasBlom()
+        {
+            return View();
         }
 
     }
