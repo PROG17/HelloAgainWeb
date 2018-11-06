@@ -68,6 +68,9 @@ namespace HelloAgainWeb.Controllers
         }
 
         public IActionResult GustavCleveman()
+        {
+            return View();
+        }
 
         public IActionResult Samulf()
         {
@@ -80,6 +83,11 @@ namespace HelloAgainWeb.Controllers
         }
         
         public IActionResult JohannaAkerstrom()
+        {
+            return View();
+        }
+
+        public IActionResult Mimmi()
         {
             return View();
         }
