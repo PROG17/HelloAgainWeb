@@ -52,7 +52,11 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+
+        public IActionResult Victor()
+
         public IActionResult GustavWestberg()
+
         {
             return View();
         }
@@ -86,6 +90,12 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+
+        public IActionResult DavidAgdelius()
+        {
+            return View();
+        }
+
         
         public IActionResult JohannaAkerstrom()
         {
