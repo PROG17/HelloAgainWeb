@@ -122,7 +122,7 @@ namespace HelloAgainWeb.Controllers
         
         public IActionResult JohannaAkerstrom()
         {
-            return View();
+            return View("otherView");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
