@@ -43,17 +43,6 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
-
-        public IActionResult KarlFristedt()
-        {
-            return View();
-        }
-
-        public IActionResult MikaelThomasMarkus()
-        {
-            return View();
-        }
-
         public IActionResult EliasMohammed()
         {
             return View();
@@ -68,19 +57,7 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
-
-        public IActionResult Victor()
-        {
-            return View();
-        }
-
         public IActionResult GustavWestberg()
-
-        {
-            return View();
-        }
-
-        public IActionResult SamuelBering()
         {
             return View();
         }
@@ -96,9 +73,6 @@ namespace HelloAgainWeb.Controllers
         }
 
         public IActionResult GustavCleveman()
-        {
-            return View();
-        }
 
         public IActionResult Samulf()
         {
@@ -109,16 +83,15 @@ namespace HelloAgainWeb.Controllers
             return View();
         }
 
+        public IActionResult CharbelYakoub()
+        {
+            return View();
+        }
+        
         public IActionResult Kalle()
         {
             return View();
         }
-
-        public IActionResult DavidAgdelius()
-        {
-            return View();
-        }
-
         
         public IActionResult JohannaAkerstrom()
         {
