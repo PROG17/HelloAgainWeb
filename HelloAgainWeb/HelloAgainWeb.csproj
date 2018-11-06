@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <Content Update="Views\Home\GustavCleveman.cshtml">
+    </Content>
     <Content Update="Views\Home\Samulf.cshtml">
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
