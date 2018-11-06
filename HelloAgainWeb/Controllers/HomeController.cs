@@ -130,6 +130,10 @@ namespace HelloAgainWeb.Controllers
 
             return View();
         }
+        public IActionResult AnnaMaria()
+        {
+            return View();
+        }
 
         public IActionResult Mimmi()
         {
