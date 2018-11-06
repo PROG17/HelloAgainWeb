@@ -104,6 +104,10 @@ namespace HelloAgainWeb.Controllers
         {
             return View();
         }
+        public IActionResult Adrian()
+        {
+            return View();
+        }
 
         public IActionResult Kalle()
         {
